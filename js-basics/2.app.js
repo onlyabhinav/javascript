@@ -13,10 +13,14 @@ function a() {
 
 var myVar = "global";
 
+var myVar2 = "global2";
+
 console.log("before calling a() | myVar -> "+myVar); 
 
 
 a();
 
 console.log("after calling a() | myVar -> "+myVar); 
+
+console.log("[TEST] after calling a() | myVar2 -> "+myVar2); 
 
